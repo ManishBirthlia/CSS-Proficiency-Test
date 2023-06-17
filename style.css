@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+}
+.yellow{
+    width: 100vw;
+    height: 80vh;
+    background-color: #c7c700;
+    text-align: center;
+    color: white;
+}
+.pink{
+    width: 100vw;
+    height: 20vh;
+    background-color: #c52a5e;
+}
+.content{
+    padding-top: 10%;
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(128, 128, 128, 0.583);
+    border-radius: 100%;
+    color: grey;
+    font-size: 3rem;
+    margin:3rem auto;
+}
+.circle>p{
+    padding-top: 1rem;
+}
+.arrow-down {
+    position: absolute;
+    width: 0;
+    top: 80vh;
+    height: 0;
+    border-left: 9vw solid transparent;
+    border-right: 9vw solid transparent;
+    border-top: 7vw solid #c7c700;
+    left: 41vw;
+}
